@@ -69,7 +69,7 @@ function checkCompatible(){
         }else{
             $r = New-Object psobject
                 $r | Add-Member NoteProperty -Name status -Value "Success"
-                $r | Add-Member NoteProperty -Name check -Value "TPM module is not compatible with Windows 11."
+                $r | Add-Member NoteProperty -Name check -Value "TPM module is compatible with Windows 11."
             $output += $r
         }
 
