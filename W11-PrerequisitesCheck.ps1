@@ -1,4 +1,6 @@
-﻿################################################################################################
+function checkCompatible(){
+ 
+ ################################################################################################
 # This script can be used to check if your computer is compatible with Windows 11              #
 # Editor : Christopher Mogis                                                                   #
 # Date : 06/30/2022                                                                            #
@@ -134,3 +136,4 @@ else
     {
     Write-Host "Available space on Hard drive : OK" -foregroundcolor "green"
     }
+}
